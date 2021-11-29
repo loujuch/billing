@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.billing.component.MyTitle
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.billing.component.MyShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show2" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/to5" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/to6" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/to8" />
+
+    <com.example.billing.component.MyBottomButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/to7" />
+
+</LinearLayout>

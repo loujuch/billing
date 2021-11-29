@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.billing.component.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_button" />
+
+    <com.example.billing.component.MyInputDouble
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_double_main" />
+
+   <com.example.billing.component.MyShowBudget
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/show10" />
+
+    <com.example.billing.component.MyRadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/second"
+        android:id="@+id/first" />
+
+    <com.example.billing.component.MyShowBudget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show11" />
+
+    <com.example.billing.component.MyRadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/second"
+        android:id="@+id/second" />
+
+    <com.example.billing.component.MyInputExtra
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_extra_main" />
+
+</LinearLayout>

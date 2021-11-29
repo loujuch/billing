@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.billing">
+
+    <application
+        android:name=".helper.MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".TimePrice"
+            android:exported="true" />
+        <activity
+            android:name=".SignPrice"
+            android:exported="true" />
+        <activity
+            android:name=".AnalyzeComment"
+            android:exported="true" />
+        <activity
+            android:name=".signAdd"
+            android:exported="true" />
+        <activity
+            android:name=".signDelete"
+            android:exported="true" />
+        <activity
+            android:name=".signChange"
+            android:exported="true" />
+        <activity
+            android:name=".signUnHide"
+            android:exported="true" />
+        <activity
+            android:name=".signHide"
+            android:exported="true" />
+        <activity
+            android:name=".signManage"
+            android:exported="true" />
+        <activity
+            android:name=".ChangeSign"
+            android:exported="true" />
+        <activity
+            android:name=".oneDayDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AllocateSaving"
+            android:exported="true" />
+        <activity
+            android:name=".AllocateBudget"
+            android:exported="true" />
+        <activity
+            android:name=".AddIncome"
+            android:exported="true" />
+        <activity
+            android:name=".Billing"
+            android:exported="true" />
+        <activity
+            android:name=".Analyze"
+            android:exported="true" />
+        <activity
+            android:name=".Budget"
+            android:exported="true" />
+        <activity
+            android:name=".Detail"
+            android:exported="true" />
+        <activity
+            android:name=".Setting"
+            android:exported="true" />
+        <activity
+            android:name=".Main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

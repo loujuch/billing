@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.billing.component.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/an_nt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_time"
+        android:textSize="20sp"
+        android:textColor="@color/main_text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/start_time" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_time"
+        android:textSize="20sp"
+        android:textColor="@color/main_text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/end_time" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_inline" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_income" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_pay" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_income" />
+
+    <com.example.billing.component.MyToShow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_pay" />
+</LinearLayout>

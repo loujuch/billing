@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.billing.component.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/an_mt" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/all3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"
+            android:textColor="@color/second_text"
+            android:textSize="17sp"
+            android:text="@string/bili"
+            android:id="@+id/add3"
+            android:background="@drawable/if_add" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/all_price"
+            android:textSize="17sp"
+            android:id="@+id/un_add3"
+            android:textColor="@color/second_text"
+            android:background="@drawable/if_add" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_time"
+        android:textSize="20sp"
+        android:textColor="@color/main_text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/start_time" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/end_time"
+        android:textSize="20sp"
+        android:textColor="@color/main_text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/end_time" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/pic_chart" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:background="@color/second"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/detail_button"
+        android:id="@+id/an_az"
+        android:textColor="@color/main_text" />
+
+</LinearLayout>

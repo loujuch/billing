@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.billing.component.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title3" />
+
+    <com.example.billing.component.MySelector
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selector1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/second_text"
+            android:text="@string/now_saving"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show3"
+            android:text="@string/default_double"
+            android:textColor="@color/main_text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/second_text"
+            android:text="@string/now_use_able"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show4"
+            android:text="@string/default_double"
+            android:textColor="@color/main_text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <com.example.billing.component.MyInputDouble
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_double_main3" />
+
+</LinearLayout>
